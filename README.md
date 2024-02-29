@@ -21,8 +21,8 @@ composer install
 * Choose "Backup or export"
 * Choose "Predefined CSV"
 * Check "Export Passwords" and "Export Folders"
-* Click on "Export"
-* Unzip the download file
+* Click on "Export" and download the archive
+* Unzip the downloaded file
 
 ### On the project
 
