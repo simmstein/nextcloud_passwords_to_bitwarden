@@ -1,10 +1,10 @@
-# Nextcloud Passwords to Bitwarden
+# Nextcloud Passwords to Bitwarden/Vaultwarden
 
-This project allows you to convert Nextcloud Passwords CSV to a Bitwarden JSON file.
+This project allows you to convert [Nextcloud Passwords](https://apps.nextcloud.com/apps/passwords) CSV to a [Bitwarden/Vaultwarden](https://github.com/dani-garcia/vaultwarden) JSON file.
 
 ## Installation
 
-```
+```shell
 git clone https://gitnet.fr/deblan/nextcloud_passwords_to_bitwarden
 composer install
 ```
@@ -26,7 +26,7 @@ composer install
 
 ### On the project
 
-```
+```shell
 php index.php /path/to/Folders.csv /path/to/Passwords.csv > bitwarden_passwords.json
 ```
 
