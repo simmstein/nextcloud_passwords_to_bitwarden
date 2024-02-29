@@ -13,16 +13,16 @@ composer install
 
 ### On Nextcloud
 
-* Go to "Personal settings"
-* Set "English (US)" as language
-* Go to "Passwords"
-* Click on "More"
-* Click on "Backup and restore"
-* Choose "Backup or export"
-* Choose "Predefined CSV"
-* Check "Export Passwords" and "Export Folders"
-* Click on "Export" and download the archive
-* Unzip the downloaded file
+- Go to "Personal settings"
+- Set "English (US)" as language
+- Go to "Passwords"
+- Click on "More"
+- Click on "Backup and restore"
+- Choose "Backup or export"
+- Choose "Predefined CSV"
+- Check "Export Passwords" and "Export Folders"
+- Click on "Export" and download the archive
+- Unzip the downloaded file
 
 ### On the project
 
@@ -32,14 +32,14 @@ php index.php /path/to/Folders.csv /path/to/Passwords.csv > bitwarden_passwords.
 
 ### On Bitwarden/Vaultwarden
 
-* Go to tools
-* Go to "Import data"
-* Choose "Bitwarden (json)" as file format
-* Choose the file "bitwarden_passwords.json"
-* Click on "Import data"
+- Go to tools
+- Go to "Import data"
+- Choose "Bitwarden (json)" as file format
+- Choose the file "bitwarden_passwords.json"
+- Click on "Import data"
 
 ### Clean up datas
 
-* Remove the downloaded archive
-* Remove extracted files
-* Remove bitwarden_passwords.json
+- Remove the downloaded archive
+- Remove extracted files
+- Remove bitwarden_passwords.json
