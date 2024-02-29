@@ -4,7 +4,7 @@ This project allows you to convert [Nextcloud Passwords](https://apps.nextcloud.
 
 ## Installation
 
-```shell
+```sh
 git clone https://gitnet.fr/deblan/nextcloud_passwords_to_bitwarden
 composer install
 ```
@@ -26,7 +26,7 @@ composer install
 
 ### On the project
 
-```shell
+```sh
 php index.php /path/to/Folders.csv /path/to/Passwords.csv > bitwarden_passwords.json
 ```
 
