@@ -4,9 +4,17 @@ This project allows you to convert [Nextcloud Passwords](https://apps.nextcloud.
 
 ## Installation
 
+### From source
+
 ```sh
 git clone https://gitnet.fr/deblan/nextcloud_passwords_to_bitwarden
 composer install
+```
+
+### Using docker
+
+```sh
+docker pull deblan/ncpasswords2bitwarden
 ```
 
 ## How to
@@ -24,10 +32,18 @@ composer install
 - Click on "Export" and download the archive
 - Unzip the downloaded file
 
-### On the project
+### Convertion
+
+### From source
 
 ```sh
 php index.php /path/to/Folders.csv /path/to/Passwords.csv > bitwarden_passwords.json
+```
+
+### Using docker
+
+```
+docker run --rm -v /path/to/extracted_files:/data deblan/ncpasswords2bitwarden /data/Folders.csv /data/Passwords.csv > bitwarden_passwords.json
 ```
 
 ### On Bitwarden/Vaultwarden
