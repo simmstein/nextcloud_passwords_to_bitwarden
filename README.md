@@ -11,6 +11,12 @@ git clone https://gitnet.fr/deblan/nextcloud_passwords_to_bitwarden
 composer install
 ```
 
+### Using the Phar
+
+```
+wget https://gitnet.fr/deblan/nextcloud_passwords_to_bitwarden/releases/download/2024-03-03/ncpasswords2bitwarden.phar
+```
+
 ### Using docker
 
 ```sh
@@ -38,6 +44,12 @@ docker pull deblan/ncpasswords2bitwarden
 
 ```sh
 php index.php /path/to/Folders.csv /path/to/Passwords.csv > bitwarden_passwords.json
+```
+
+#### Using the Phar
+
+```sh
+php ncpasswords2bitwarden.phar /path/to/Folders.csv /path/to/Passwords.csv > bitwarden_passwords.json
 ```
 
 #### Using docker
