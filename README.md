@@ -34,13 +34,13 @@ docker pull deblan/ncpasswords2bitwarden
 
 ### Convertion
 
-### From source
+#### From source
 
 ```sh
 php index.php /path/to/Folders.csv /path/to/Passwords.csv > bitwarden_passwords.json
 ```
 
-### Using docker
+#### Using docker
 
 ```
 docker run --rm -v /path/to/extracted_files:/data deblan/ncpasswords2bitwarden /data/Folders.csv /data/Passwords.csv > bitwarden_passwords.json
